@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  font-variant: normal;
+
+  --dark: #272a31;
+  --oragen: #ec5242;
+  --gray: #d3d3d3;
+}
+
+body {
+  outline: 1px solid red;
+  font-size: 2rem;
+  background-color: #fff;
+}
+
+.intro-container {
+  height: 450px;
+  width: 100%;
+  background: url("/img/bg-intro.png") no-repeat top / cover;
+}
+
+.menu-btn {
+  border-style: none;
+}
+
+.main-program {
+  height: 500px;
+  background: var(--dark) url(/img/bg-main.png);
+}
+
+.guide-bar {
+  width: 53px;
+  height: 16px;
+  border-bottom: 2px solid var(--oragen);
+  margin: 0 auto 54px;
+}

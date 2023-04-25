@@ -50,11 +50,23 @@ body {
 
 .little-guide-bar {
   width: 13px;
-  height: 16px;
+  height: 6px;
   border-bottom: 2px solid var(--gray);
-  margin: 0 auto 54px;
 }
 
 .cards {
   background-color: #d3d3d330;
+}
+
+
+.articles-container {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.articles-container article {
+  min-width: 100px;
+  height: 200px;
 }

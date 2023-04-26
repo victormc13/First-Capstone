@@ -7,7 +7,7 @@
   font-variant: normal;
 
   --dark: #272a31;
-  --oragen: #ec5242;
+  --oragen: #f16422;
   --gray: #d3d3d3;
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .guide-bar {
-  width: 53px;
+  width: 33px;
   height: 16px;
   border-bottom: 2px solid var(--oragen);
   margin: 0 auto 54px;
@@ -58,6 +58,15 @@ body {
   background-color: #d3d3d330;
 }
 
+.cards h3 {
+  color: var(--oragen);
+}
+
+.main-button {
+  width: 300px;
+  height: 80px;
+  background-color: var(--oragen);
+}
 
 .articles-container {
   width: 100%;
@@ -69,4 +78,97 @@ body {
 .articles-container article {
   min-width: 100px;
   height: 200px;
+}
+
+.speaker :nth-child(2) {
+  font-size: 0.8rem;
+  color: var(--oragen);
+}
+
+.speaker :nth-child(4) {
+  font-size: 0.7rem;
+  color: #858585;
+}
+
+.partners-section {
+  background-color: var(--dark);
+}
+
+.partners {
+  color: var(--gray);
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+a span {
+  color: var(--oragen);
+}
+
+.footer-section div small {
+  font-size: 12px;
+}
+
+.aboutintro-container {
+  height: 450px;
+  width: 100%;
+  color: #535353;
+  background: #fff url("/img/bg-intro.png") no-repeat top / cover;
+}
+
+.email {
+  color: var(--dark);
+}
+
+.logo-section {
+  font-size: 0.9rem;
+  color: #535353;
+  height: 500px;
+  border-bottom: 2px solid var(--gray);
+}
+
+.logo-section h2 {
+  font-size: 1.2rem;
+  color: var(--dark);
+}
+
+.aboutguide-bar {
+  width: 20px;
+  height: 3px;
+  border-bottom: 2px solid var(--oragen);
+  margin: 0 auto 54px;
+}
+
+.logo-container {
+  max-width: 600px;
+  border: 2px solid var(--gray);
+}
+
+.last-summits .small {
+  color: #535353;
+  font-size: 0.8rem;
+}
+
+.images-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+}
+
+.images-container .image1 {
+  font-size: 2.5rem;
+  min-width: 300px;
+  min-height: 200px;
+  background: url(/img/globalSummit1.png) no-repeat center / cover;
+}
+
+.images-container .image2 {
+  font-size: 2.5rem;
+  min-width: 300px;
+  min-height: 200px;
+  background: url(/img/globalSummit2.png) no-repeat center / cover;
 }

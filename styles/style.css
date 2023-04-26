@@ -75,6 +75,10 @@ body {
   grid-template-columns: 1fr;
 }
 
+.arrow-more {
+  color: var(--oragen);
+}
+
 .articles-container article {
   min-width: 100px;
   height: 200px;
@@ -171,4 +175,56 @@ a span {
   min-width: 300px;
   min-height: 200px;
   background: url(/img/globalSummit2.png) no-repeat center / cover;
+}
+
+a:hover, a:active, a:enabled {
+  color: var(--oragen);
+}
+
+.hidden-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .hidden-mobile {
+    display: none;
+  }
+
+  .hidden-desktop {
+    display: block;
+  }
+
+  header:nth-child(1) {
+    gap: 1rem;
+    background-color: var(--dark);
+  }
+
+  .intro-container, .aboutintro-container {
+    min-height: 90vh;
+  }
+
+  .intro-container h1, .intro-container span {
+    font-size: 5rem;
+  }
+
+  .cards-container {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .cards {
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .articles-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .images-container {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+  }
 }

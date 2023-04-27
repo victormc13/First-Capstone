@@ -68,13 +68,7 @@ const speakersData = [
 
 function renderSpeakersSection() {
   const speakersSection = document.getElementById('speakers');
-  speakersSection.classList.add(
-    'speakers-section',
-    'p-3',
-    'p-lg-5',
-    'h-100',
-    'bg-white',
-  );
+  speakersSection.classList.add('speakers-section','p-3','p-lg-5','h-100','bg-white');
 
   const speakersContent = `<h2 class="text-center">Featured Speakers</h2>
   <div class="guide-bar"></div>

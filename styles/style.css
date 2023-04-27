@@ -158,6 +158,7 @@ a span {
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr;
+  z-index: 999;
 }
 
 .images-container .image1 {

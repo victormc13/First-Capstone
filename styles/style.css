@@ -248,7 +248,8 @@ a:enabled {
     background-color: var(--dark);
   }
 
-  .intro-container, .aboutintro-container {
+  .intro-container,
+  .aboutintro-container {
     height: 100vh;
   }
 

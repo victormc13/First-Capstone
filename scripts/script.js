@@ -74,7 +74,6 @@ function renderSpeakersSection() {
       'speakers-section',
       'p-3',
       'p-lg-5',
-      'h-100',
       'bg-white',
     );
   }

@@ -177,12 +177,61 @@ a span {
   background: url(/img/globalSummit2.png) no-repeat center / cover;
 }
 
-a:hover, a:active, a:enabled {
+a:hover,
+a:active,
+a:enabled {
   color: var(--oragen);
 }
 
 .hidden-desktop {
   display: none;
+}
+
+#menu {
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  gap: 3rem;
+  background-color: #e5e5e5;
+  display: none;
+}
+
+.close-btn {
+  color: var(--oragen);
+  align-self: flex-end;
+  border-style: none;
+  background-color: transparent;
+}
+
+.menu-mobile {
+  padding: 1rem;
+  width: 100%;
+  height: 95%;
+  gap: 3rem;
+  border-bottom-left-radius: 3rem;
+  border-bottom-right-radius: 3rem;
+  background-color: var(--dark);
+}
+
+.menu-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+
+  /* align-self: flex-center; */
+}
+
+.menu-options li a {
+  border-bottom: 2px solid var(--gray);
+  color: var(--gray);
+}
+
+.menu-options li a:hover {
+  color: var(--oragen);
 }
 
 @media only screen and (min-width: 768px) {
@@ -199,11 +248,13 @@ a:hover, a:active, a:enabled {
     background-color: var(--dark);
   }
 
-  .intro-container, .aboutintro-container {
+  .intro-container,
+  .aboutintro-container {
     min-height: 90vh;
   }
 
-  .intro-container h1, .intro-container span {
+  .intro-container h1,
+  .intro-container span {
     font-size: 5rem;
   }
 

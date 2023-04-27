@@ -31,8 +31,10 @@
   </head>
   <body>
     <header class="hidden-desktop container-fluid p-0">
-      <div class="d-flex  p-2">
-        <ul class="container d-flex justify-content-end px-5 fs-6 m-0 gap-3 text-white">
+      <div class="d-flex p-2">
+        <ul
+          class="container d-flex justify-content-end px-5 fs-6 m-0 gap-3 text-white"
+        >
           <li><i class="bi bi-facebook"></i></li>
           <li><i class="bi bi-twitter"></i></li>
           <li>English</li>
@@ -52,7 +54,11 @@
             <li><a href="#">Join</a></li>
             <li><a href="#">Sponsor</a></li>
             <li><a href="#">News</a></li>
-            <li><a href="#" class="border border-4 border-danger p-2 text-danger">AI Campaign</a></li>
+            <li>
+              <a href="#" class="border border-4 border-danger p-2 text-danger"
+                >AI Campaign</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -60,10 +66,29 @@
     <!-- Main content -->
     <main class="container-fluid p-0 text-center">
       <!-- About intro section -->
+      <!-- Menu mobile -->
+      <div id="menu" class="hidden-mobile flex-column">
+        <div class="menu-mobile">
+          <button class="close-btn d-flex justify-content-start"><i class="bi bi-x-lg"></i></button>
+          <ul class="menu-options">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Program</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Sponsor</a></li>
+            <li><a href="#">News</a></li>
+            <li>
+              <a href="#" class="border border-4 border-danger p-2 text-danger"
+                >AI Campaign</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
       <section
         class="aboutintro-container d-flex flex-column p-3 p-lg-5 align-items-center h-100"
       >
-        <button class="hidden-mobile menu-btn btn align-self-start p-2" href="#">
+        <button class="hidden-mobile menu-btn btn align-self-start p-2">
           <img src="img/btn-menu.png" alt="menu mobile" width="24px" />
         </button>
         <span class="fs-3 mt-5 title">"Hello! Human world"</span>
@@ -124,8 +149,18 @@
         >
         <div class="images-summit">
           <div class="images-container">
-            <div class="image1 text-white d-flex flex-column align-items-center justify-content-center fw-bold">2023<span class="fs-5">AI-B Global Summit 2023 in Lima</span></div>
-            <div class="image2 text-white d-flex flex-column align-items-center justify-content-center fw-bold">2021<span class="fs-5">AI-B Global Summit 2021 in California</span></div>
+            <div
+              class="image1 text-white d-flex flex-column align-items-center justify-content-center fw-bold"
+            >
+              2023<span class="fs-5">AI-B Global Summit 2023 in Lima</span>
+            </div>
+            <div
+              class="image2 text-white d-flex flex-column align-items-center justify-content-center fw-bold"
+            >
+              2021<span class="fs-5"
+                >AI-B Global Summit 2021 in California</span
+              >
+            </div>
           </div>
         </div>
       </section>
@@ -159,5 +194,6 @@
         </div>
       </section>
     </footer>
+    <script src="scripts/script.js"></script>
   </body>
 </html>

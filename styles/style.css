@@ -87,6 +87,10 @@ body {
   height: 200px;
 }
 
+.speakers-section {
+  min-height: 100%;
+}
+
 .speaker :nth-child(2) {
   font-size: 0.8rem;
   color: var(--oragen);

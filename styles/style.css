@@ -29,6 +29,7 @@ body {
 
 .menu-btn {
   border-style: none;
+  margin-bottom: 4rem;
 }
 
 .title {
@@ -217,8 +218,6 @@ a:enabled {
   gap: 1rem;
   font-size: 2rem;
   font-weight: 600;
-
-  /* align-self: flex-center; */
 }
 
 .menu-options li a {
@@ -228,6 +227,10 @@ a:enabled {
 
 .menu-options li a:hover {
   color: var(--oragen);
+}
+
+.intro-container {
+  height: 100vh;
 }
 
 @media only screen and (min-width: 768px) {

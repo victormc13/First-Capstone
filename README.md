@@ -265,8 +265,7 @@ If you like this project you can reach out with me in [viktorsb14@gmail.com](htt
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 <!-- > Give credit to everyone who inspired your codebase. -->
-
-I would like to thank to Microverse for give us this opportunity
+I would like to thank Microverse for giving us this opportunity and to [Cindy Shin in Behance](https://www.behance.net/adagio07) for her really cool design that I take as inspiration for this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

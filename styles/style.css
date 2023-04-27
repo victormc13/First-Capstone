@@ -41,7 +41,6 @@ body {
 }
 
 .main-program {
-  height: 600px;
   background: var(--dark) url(../img/bg-main.png);
 }
 

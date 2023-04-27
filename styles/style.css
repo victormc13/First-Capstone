@@ -40,7 +40,7 @@ body {
 }
 
 .main-program {
-  height: 500px;
+  height: 600px;
   background: var(--dark) url(/img/bg-main.png);
 }
 
@@ -242,6 +242,10 @@ a:enabled {
   header:nth-child(1) {
     gap: 1rem;
     background-color: var(--dark);
+  }
+
+  .intro-container, .aboutintro-container {
+    height: 100vh;
   }
 
   .intro-container h1,

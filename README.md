@@ -172,7 +172,7 @@ Example command:
 To run the project, execute the following command:
 
 - go to the folder where you cloned the repository
-- Open the home.html file with your favorite web browser
+- Open the index.html file with your favorite web browser
 
 <!--
 Example command:

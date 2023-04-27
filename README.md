@@ -27,10 +27,10 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="icons/banner.jpg" alt="logo" />
+  <img src="/img/banner.jpg" alt="logo" />
   <br/>
 
-  <h1><b>Portfolio-project</b></h1>
+  <h1><b>First-Capstone</b></h1>
 
 </div>
 
@@ -57,7 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio-project] <a name="about-project"></a>
+# 📖 [First-Capstone] <a name="about-project"></a>
 
 <!-- > Describe your project in 1 or 2 sentences. -->
 

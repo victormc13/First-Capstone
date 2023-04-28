@@ -34,10 +34,15 @@ body {
 
 .title {
   color: var(--oragen);
+  font-size: 3rem;
+  font-weight: 900;
 }
 
 .subtitle {
+  letter-spacing: -0.1rem;
   color: var(--dark);
+  font-size: 1.8rem;
+  font-weight: 900;
 }
 
 .main-program {
@@ -59,6 +64,10 @@ body {
 
 .cards {
   background-color: #d3d3d330;
+}
+
+.cards:hover {
+  border: 2px solid var(--gray);
 }
 
 .cards h3 {
@@ -233,10 +242,6 @@ a:enabled {
   color: var(--oragen);
 }
 
-.intro-container {
-  height: 100vh;
-}
-
 @media only screen and (min-width: 768px) {
   .hidden-mobile {
     display: none;
@@ -261,9 +266,35 @@ a:enabled {
     font-size: 5rem;
   }
 
+  .title {
+    width: 800px;
+    color: var(--oragen);
+    font-size: 5rem;
+    font-weight: 900;
+  }
+
+  .subtitle {
+    color: var(--dark);
+    font-size: 3rem !important;
+    font-weight: 900;
+  }
+
+  .main-program {
+    height: 560px;
+    gap: 2rem;
+  }
+
   .cards-container {
     display: flex;
     gap: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .guide-bar {
+    width: 33px;
+    height: 16px;
+    border-bottom: 2px solid var(--oragen);
+    margin: 0;
   }
 
   .cards {
@@ -281,4 +312,13 @@ a:enabled {
     gap: 1rem;
     grid-template-columns: 1fr 1fr;
   }
+
+  .footer-section {
+    color: var(--gray);
+    background-color: var(--dark);
+  }
+
+  /* .footer-section a {
+    color: var(--gray);
+  } */
 }

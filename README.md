@@ -113,8 +113,8 @@ After you're finished please remove all the comments and instructions!
 
 <!-- > Add a link to your deployed project. -->
 
-- []()
-- [First-Capstone video]()
+- [Demo page](https://victormc13.github.io/First-Capstone/index.html)
+- [First-Capstone video](https://loom.com/share/e8b9ae68f1584c9bb0ddd59182e3236e)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
